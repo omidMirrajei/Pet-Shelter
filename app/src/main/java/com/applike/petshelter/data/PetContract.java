@@ -13,9 +13,6 @@ public class PetContract {
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
     public static final String PATH_PETS = "pets";
 
-    public static final String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/contact";
-    public static final String CONTENT_TYPE = "vnd.android.cursor.dir/contact";
-
     public static final class PetEntry implements BaseColumns {
 
         /**
