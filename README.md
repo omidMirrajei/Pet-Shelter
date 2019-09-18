@@ -1,6 +1,5 @@
 # Pet-Shelter
 by Udacity course
-`Topics covered`
 
 
 ### Topics covered
