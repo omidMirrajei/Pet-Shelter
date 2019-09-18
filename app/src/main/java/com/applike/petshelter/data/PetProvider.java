@@ -68,7 +68,7 @@ public class PetProvider extends ContentProvider {
             case PETS:
                 // contain multiple rows of the pets table.
                 cursor = database.query(PetEntry.TABLE_NAME, projection, selection, selectionArgs,
-                        null, null, sortOrder);
+                        null, null, PetEntry._ID + " DESC");
                 break;
 
             case PET_ID:
